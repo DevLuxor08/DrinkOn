@@ -9,27 +9,36 @@
 </head>
 <body>
     <section>
+        <!-- DIV de todo conteudo -->
         <div class="container">
+            <!-- DIV Formulario -->
             <div class="container-information">
-
-                <div class="la-icon">
+                <!-- DIV Input Usuario -->
+                <div class="cont">
                     <label for="inpUser" class="Label-descrition">Usuario</label>
-                    <i class="fa-solid fa-user icons" ></i>
+                    <div class="input-icon">
+                        <input type="text"class="inp-Information" id="inpUser" placeholder="Informe seu Usuario">
+                        <i class="fa-solid fa-user icon-pad" ></i>
+                    </div>
                 </div>
 
-                <input type="text"
-                class="inp-Information" id="inpUser" placeholder="Informe seu Usuario">
-
-                <div class="la-icon">
+                <!-- DIV Input Senha -->
+                <div class="cont">
                     <label for="InpSenha" class="Label-descrition">Senha</label>
-                    <i class="fa-solid fa-lock icons"></i>
+                    <div class="input-icon">
+                        <input type="password" class="inp-Information" id="InpSenha" placeholder="Informe sua Senha">
+                        <i class="fa-solid fa-lock icon-pad"></i>
+                    </div>
+                </div>
+
+                <!-- DIV Botão-->
+                <div class="container-btn">
+                    <button class="btn" type="submit" id="btnEntrar">Entrar</button>
                 </div>
                 
-                <input type="password" class="inp-Information" id="InpSenha" placeholder="Informe sua Senha">
-
-                <button class="btn" type="submit" id="btnEntrar">Entrar</button>
             </div>
 
+            <!-- IMAGEM-->
             <div class="container-image">
                 <img src="./assets/image/RigaTempl.png" alt="Imagem do Riga Rock Bar">
             </div>
